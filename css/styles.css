@@ -1,0 +1,25 @@
+.page-header {
+  background-color: #ffffff;
+}
+.logo-head {
+  color: #000000;
+}
+.web-logo {
+  color: #2196f3;
+}
+.first-sec {
+  background-color: #2f303a;
+}
+.first-h {
+  color: #ffffff;
+}
+.first-button {
+  background-color: #2196f3;
+  color: #ffffff;
+  border-color: #2196f3;
+
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+}
