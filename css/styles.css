@@ -26,7 +26,10 @@ ul {
 
   color: var(--text);
 }
-
+.nav-links .link:hover,
+.nav-links .link:focus {
+  color: var(--accent);
+}
 .nav-links .link.current {
   color: var(--accent);
 }
@@ -49,7 +52,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: var(--accent);
 }
 .logo-head {
   font-family: Raleway, sans-serif;
