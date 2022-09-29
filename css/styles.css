@@ -172,7 +172,9 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--text);
-  background-color: var(--memberbgc);
+}
+.members li {
+  background-color: var(--white);
 }
 
 .members h3 {
@@ -186,7 +188,6 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--text);
-  background-color: var(--white);
 }
 .members p {
   font-style: normal;
@@ -199,7 +200,6 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--grey);
-  background-color: var(--white);
 }
 /*portfolio*/
 /*buttons*/
