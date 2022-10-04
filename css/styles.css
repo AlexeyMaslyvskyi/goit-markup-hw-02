@@ -12,15 +12,17 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--white);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
-ul {
+.list {
   list-style: none;
 }
 .nav-links .link {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -38,7 +40,7 @@ ul {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -48,7 +50,7 @@ ul {
 .contacts-header a:focus {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -62,8 +64,6 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
-
-  letter-spacing: 0.03em;
 
   color: var(--black);
 }
@@ -131,34 +131,23 @@ ul {
   margin: -1px;
 }
 .benefits h3 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+
   text-transform: uppercase;
 
   color: var(--text);
 }
 .benefits p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   /* or 171% */
-
-  letter-spacing: 0.03em;
 
   color: var(--grey);
 }
 /*3sec-main*/
 .our-works h2 {
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--text);
 }
@@ -172,7 +161,6 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--text);
 }
@@ -181,26 +169,21 @@ ul {
 }
 
 .members h3 {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   /* identical to box height */
 
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--text);
 }
 .members p {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   /* identical to box height */
 
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--grey);
 }
@@ -223,8 +206,6 @@ ul {
 }
 /*projects*/
 .projects h2 {
-  font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   /* identical to box height, or 200% */
@@ -234,13 +215,9 @@ ul {
   color: var(--text);
 }
 .projects p {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 188% */
-
-  letter-spacing: 0.03em;
 
   color: var(--grey);
 }
@@ -257,8 +234,6 @@ ul {
   line-height: 1.2;
   /* identical to box height */
 
-  letter-spacing: 0.03em;
-
   color: var(--white);
 }
 
@@ -266,11 +241,9 @@ ul {
   font-style: normal;
   text-decoration: none;
   font-weight: 400;
-  font-size: 14px;
+
   line-height: 1.71;
   /* or 171% */
-
-  letter-spacing: 0.03em;
 
   color: var(--white);
 }
@@ -279,11 +252,9 @@ ul {
   font-style: normal;
   text-decoration: none;
   font-weight: 400;
-  font-size: 14px;
+
   line-height: 1.71;
   /* or 171% */
-
-  letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 }
